@@ -225,37 +225,39 @@
 // const person1 = new Employee("name", "age", "position")
 // console.log(person1)
 
-class Book{
-    constructor(title, author, price){
-        this.title = title
-        this.author = author
-        this.price = price
-    }
-}
 
-class Bookstore{
-    constructor(){
-        this.books = []
-    }
-    addBook(book){
-       this.books.push(book)
-    }
-    removeBook(book){
-       const index = this.books.indexOf(book)
-       if(index != -1){
-          this.books.splice(index, 1)
-       }
-    }
-    listBooks(){
-       for(let index = 0; index < this.books.length; index++){
-         const book = this.books[index]
-         console.log(book)
-       }
-    }
-}
 
-const book1 = new Bookstore("книга1", "sara", "20$")
-const book2 = new Bookstore("книга1", "sara", "20$")
-const bookStore = new Bookstore()
-bookStore.addBook(book1)
-bookStore.addBook(book2)
+// class Book{
+//     constructor(title, author, price){
+//         this.title = title
+//         this.author = author
+//         this.price = price
+//     }
+// }
+
+// class Bookstore{
+//     constructor(){
+//         this.books = []
+//     }
+//     addBook(book){
+//        this.books.push(book)
+//     }
+//     removeBook(book){
+//        const index = this.books.indexOf(book)
+//        if(index != -1){
+//           this.books.splice(index, 1)
+//        }
+//     }
+//     listBooks(){
+//        for(let index = 0; index < this.books.length; index++){
+//          const book = this.books[index]
+//          console.log(book)
+//        }
+//     }
+// }
+
+// const book1 = new Bookstore("книга1", "sara", "20$")
+// const book2 = new Bookstore("книга1", "sara", "20$")
+// const bookStore = new Bookstore()
+// bookStore.addBook(book1)
+// bookStore.addBook(book2)
