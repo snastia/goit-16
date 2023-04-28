@@ -30,7 +30,7 @@
 // console.log(mango.#email)
 
 
-// статичні (власті) властивості
+// статичні (властні) властивості
 
 // class User {
 //     static Roles = {
